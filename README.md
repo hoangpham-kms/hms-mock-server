@@ -3,6 +3,8 @@ This is mock server for back end API Restful
 
 # Start server: npm start
 
+http://192.168.59.125:3000/
+
 # Add an API endpoint:   configure url and json file as the result, for example
 
 \public.api.js
