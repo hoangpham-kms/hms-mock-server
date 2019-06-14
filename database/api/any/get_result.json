@@ -1,0 +1,21 @@
+{
+  "isSuccess": true,
+  "data": {
+    "reservations": [
+      {
+        "reservationID": "string",
+        "status": "string",
+        "propertyID": "string",
+        "propertyCode": "string",
+        "propertyName": "string",
+        "arrivalDate": "2019-06-14T06:27:07.690Z",
+        "departureDate": "2019-06-14T06:27:07.690Z",
+        "bookingDate": "2019-06-14T06:27:07.690Z",
+        "promotionCode": "string",
+        "confirmationNumber": "string",
+        "itineraryNumber": "string",
+        "cancellationNumber": "string"
+      }
+    ]
+  }
+}

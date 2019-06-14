@@ -1,0 +1,532 @@
+{
+  "isSuccess": true,
+  "data": {
+    "reservations": [
+      {
+        "reservationID": "string",
+        "status": "string",
+        "propertyID": "string",
+        "propertyCode": "string",
+        "propertyName": "string",
+        "arrivalDate": "2019-06-14T07:33:15.242Z",
+        "departureDate": "2019-06-14T07:33:15.242Z",
+        "bookingDate": "2019-06-14T07:33:15.242Z",
+        "promotionCode": "string",
+        "confirmationNumber": "string",
+        "itineraryNumber": "string",
+        "cancellationNumber": "string",
+        "roomOccupancy": {
+          "numberOfAdult": 0,
+          "otherOccupancies": [
+            {
+              "otherOccupancyRefID": "string",
+              "otherOccupancyRefCode": "string",
+              "quantity": 0
+            }
+          ]
+        },
+        "roomRates": [
+          {
+            "stayDate": "2019-06-14T07:33:15.242Z",
+            "roomTypeCode": "string",
+            "roomTypeName": "string",
+            "roomTypeRefID": "string",
+            "ratePlanCode": "string",
+            "ratePlanName": "string",
+            "ratePlanRefID": "string",
+            "roomTypeInfo": {
+              "id": "string",
+              "name": "string",
+              "code": "string",
+              "description": "string",
+              "shortDescription": "string",
+              "status": true,
+              "numberOfRoom": 0,
+              "defaultOccupancy": 0,
+              "maxOccupancy": 0,
+              "maxAdult": 0,
+              "maxChild": 0,
+              "hotelID": "string",
+              "activeDate": "2019-06-14T07:33:15.246Z",
+              "createdAt": "2019-06-14T07:33:15.246Z",
+              "updatedAt": "2019-06-14T07:33:15.246Z",
+              "squareUnit": 0,
+              "squareUnitType": "string",
+              "thumbnails": [
+                {
+                  "id": "string",
+                  "url": "string",
+                  "order": 0,
+                  "title": "string",
+                  "type": "string"
+                }
+              ],
+              "extends": [
+                {
+                  "id": "string",
+                  "standardCode": 0,
+                  "name": "string",
+                  "code": "string",
+                  "description": "string",
+                  "type": "string",
+                  "icon": "string"
+                }
+              ]
+            },
+            "ratePlanInfo": {
+              "ratePlanId": "string",
+              "ratePlanCategoryId": "string",
+              "marketId": "string",
+              "sourceId": "string",
+              "rateCode": "string",
+              "name": "string",
+              "description": "string",
+              "beginSellDate": "2019-06-14T07:33:15.247Z",
+              "endSellDate": "2019-06-14T07:33:15.247Z",
+              "maxAdult": 0,
+              "minAdult": 0,
+              "maxChildren": 0,
+              "minChildren": 0,
+              "minStayThru": 0,
+              "maxStayThru": 0,
+              "minAdvanceBooking": 0,
+              "maxAdvanceBooking": 0,
+              "isTiered": true,
+              "isBar": true,
+              "status": 0,
+              "ratePlanGroupId": "string",
+              "propertyId": "string",
+              "exchangeTypeId": "string",
+              "transactionCodeId": "string",
+              "pkgTransactionCodeId": "string",
+              "taxIncluded": true,
+              "inheritType": 0,
+              "baseRateModifyAmount": {},
+              "baseRateModifyUnitType": 0,
+              "baseRateModifyRoudingType": 0,
+              "currency": "string",
+              "cancelPolicyId": "string",
+              "childPolicyId": "string",
+              "guaranteePolicyId": "string",
+              "amendmentPolicyId": "string",
+              "depositPolicyId": "string",
+              "otherPolicyId": "string",
+              "parentId": "string",
+              "createdAt": "2019-06-14T07:33:15.247Z",
+              "updatedAt": "2019-06-14T07:33:15.247Z",
+              "roomTypeIds": [
+                "string"
+              ],
+              "taxes": [
+                {}
+              ],
+              "childPolicy": {
+                "id": "string",
+                "code": "string",
+                "description": "string",
+                "createdAt": "2019-06-14T07:33:15.247Z",
+                "updatedAt": "2019-06-14T07:33:15.247Z",
+                "detail": [
+                  {
+                    "id": "string",
+                    "charge": "string",
+                    "type": "string",
+                    "from": 0,
+                    "to": 0,
+                    "isAllow": 0,
+                    "parentId": "string",
+                    "createdAt": "2019-06-14T07:33:15.247Z",
+                    "updatedAt": "2019-06-14T07:33:15.247Z"
+                  }
+                ]
+              },
+              "amendmentPolicy": {
+                "id": "string",
+                "code": "string",
+                "description": "string",
+                "createdAt": "2019-06-14T07:33:15.247Z",
+                "updatedAt": "2019-06-14T07:33:15.247Z",
+                "detail": [
+                  {
+                    "id": "string",
+                    "type": "string",
+                    "amount": 0,
+                    "rule": "string",
+                    "parentId": "string",
+                    "createdAt": "2019-06-14T07:33:15.247Z",
+                    "updatedAt": "2019-06-14T07:33:15.248Z"
+                  }
+                ]
+              },
+              "cancelPolicy": {
+                "id": "string",
+                "code": "string",
+                "description": "string",
+                "createdAt": "2019-06-14T07:33:15.248Z",
+                "updatedAt": "2019-06-14T07:33:15.248Z",
+                "detail": [
+                  {
+                    "id": "string",
+                    "amount": 0,
+                    "type": 0,
+                    "daysBeforeArrival": 0,
+                    "daysAfterBooking": 0,
+                    "isRefundable": true,
+                    "parentId": "string",
+                    "createdAt": "2019-06-14T07:33:15.248Z",
+                    "updatedAt": "2019-06-14T07:33:15.248Z"
+                  }
+                ]
+              },
+              "guaranteePolicy": {
+                "id": "string",
+                "code": "string",
+                "description": "string",
+                "createdAt": "2019-06-14T07:33:15.248Z",
+                "updatedAt": "2019-06-14T07:33:15.248Z",
+                "detail": [
+                  {
+                    "id": "string",
+                    "type": 0,
+                    "depositType": 0,
+                    "depositAmount": 0,
+                    "daysBeforeArrival": 0,
+                    "daysAfterBooking": 0,
+                    "parentId": "string",
+                    "createdAt": "2019-06-14T07:33:15.248Z",
+                    "updatedAt": "2019-06-14T07:33:15.248Z"
+                  }
+                ]
+              },
+              "distributionChannels": [
+                {}
+              ],
+              "discountTypeCode": 0,
+              "discountTypeName": "string",
+              "includesBreakfast": true,
+              "includesLunch": true,
+              "includesDinner": true
+            },
+            "rateAmount": {
+              "amount": {
+                "amount": 0,
+                "currencyCode": "string"
+              },
+              "taxFeeItems": [
+                {
+                  "type": "string",
+                  "name": "string",
+                  "code": "string",
+                  "refID": "string",
+                  "amount": {
+                    "amount": 0,
+                    "currencyCode": "string"
+                  },
+                  "detail": "string"
+                }
+              ]
+            }
+          }
+        ],
+        "packages": [
+          {
+            "usedDate": "2019-06-14T07:33:15.248Z",
+            "packageRefID": "string",
+            "packageCode": "string",
+            "packageName": "string",
+            "detail": "string",
+            "quantity": 0,
+            "amount": {
+              "amount": {
+                "amount": 0,
+                "currencyCode": "string"
+              },
+              "taxFeeItems": [
+                {
+                  "type": "string",
+                  "name": "string",
+                  "code": "string",
+                  "refID": "string",
+                  "amount": {
+                    "amount": 0,
+                    "currencyCode": "string"
+                  },
+                  "detail": "string"
+                }
+              ]
+            },
+            "isIncludedInRate": true
+          }
+        ],
+        "profiles": [
+          {
+            "profileRefID": "string",
+            "identityID": "string",
+            "email": "string",
+            "firstName": "string",
+            "middleName": "string",
+            "lastName": "string",
+            "title": "string",
+            "phoneNumber": "string",
+            "profileType": "string",
+            "passport": "string",
+            "gender": "string",
+            "address": "string"
+          }
+        ],
+        "guaranteeInfos": [
+          {
+            "guaranteeRefID": "string",
+            "guaranteeName": "string",
+            "guaranteeType": "string",
+            "guaranteeMethod": "string",
+            "guaranteeValue": "string",
+            "guaranteeDescription": "string"
+          }
+        ],
+        "cancelInfos": [
+          {
+            "cancellationPolicyRefId": "string",
+            "cancellationPolicyName": "string",
+            "isRefundable": true,
+            "cancelPenaltyAmount": 0,
+            "cancelPenaltyPercent": 0,
+            "cancelPenaltyNumberNights": 0
+          }
+        ],
+        "total": {
+          "amount": {
+            "amount": 0,
+            "currencyCode": "string"
+          },
+          "taxFeeItems": [
+            {
+              "type": "string",
+              "name": "string",
+              "code": "string",
+              "refID": "string",
+              "amount": {
+                "amount": 0,
+                "currencyCode": "string"
+              },
+              "detail": "string"
+            }
+          ]
+        },
+        "specialRequests": [
+          {
+            "requestType": "string",
+            "requestContent": "string"
+          }
+        ],
+        "referenceIds": [
+          {
+            "id": "string",
+            "referenceType": 0,
+            "value": "string"
+          }
+        ],
+        "cancellationPolicies": [
+          {
+            "id": "string",
+            "amount": 0,
+            "type": 0,
+            "daysBeforeArrival": 0,
+            "daysAfterBooking": 0,
+            "isRefundable": true,
+            "parentId": "string",
+            "createdAt": "2019-06-14T07:33:15.248Z",
+            "updatedAt": "2019-06-14T07:33:15.248Z"
+          }
+        ],
+        "guaranteePolicies": [
+          {
+            "id": "string",
+            "type": 0,
+            "depositType": 0,
+            "depositAmount": 0,
+            "daysBeforeArrival": 0,
+            "daysAfterBooking": 0,
+            "parentId": "string",
+            "createdAt": "2019-06-14T07:33:15.248Z",
+            "updatedAt": "2019-06-14T07:33:15.248Z"
+          }
+        ],
+        "amendmentPolicies": [
+          {
+            "id": "string",
+            "type": "string",
+            "amount": 0,
+            "rule": "string",
+            "parentId": "string",
+            "createdAt": "2019-06-14T07:33:15.248Z",
+            "updatedAt": "2019-06-14T07:33:15.248Z"
+          }
+        ],
+        "propertyInfo": {
+          "id": "string",
+          "name": "string",
+          "slug": "string",
+          "code": "string",
+          "order": 0,
+          "description": "string",
+          "countryId": "string",
+          "countryStateId": "string",
+          "termAndCondition": "string",
+          "checkInDescription": "string",
+          "checkOutDescription": "string",
+          "hotelTypeId": "string",
+          "tripAdvisor": "string",
+          "city": "string",
+          "street": "string",
+          "telephone": "string",
+          "fax": "string",
+          "email": "string",
+          "postCode": "string",
+          "webAddress": "string",
+          "currencySymbol": "string",
+          "locationCoordinates": "string",
+          "checkInTime": "string",
+          "checkOutTime": "string",
+          "star": 0,
+          "confirmationEmailTemplateId": "string",
+          "cancellationEmailTemplateId": "string",
+          "amendmentEmailTemplateId": "string",
+          "country": {
+            "id": "string",
+            "name": "string",
+            "code": "string"
+          },
+          "state": {
+            "id": "string",
+            "name": "string",
+            "code": "string",
+            "thumbnail": "string"
+          },
+          "thumbnails": [
+            {
+              "id": "string",
+              "url": "string",
+              "order": 0,
+              "title": "string",
+              "type": "string"
+            }
+          ],
+          "hotelType": {
+            "id": "string",
+            "name": "string",
+            "description": "string",
+            "code": "string",
+            "type": "string",
+            "icon": "string"
+          },
+          "extends": [
+            {
+              "id": "string",
+              "standardCode": 0,
+              "name": "string",
+              "code": "string",
+              "description": "string",
+              "type": "string",
+              "icon": "string"
+            }
+          ],
+          "roomTypes": [
+            {
+              "id": "string",
+              "name": "string",
+              "code": "string",
+              "description": "string",
+              "shortDescription": "string",
+              "status": true,
+              "numberOfRoom": 0,
+              "defaultOccupancy": 0,
+              "maxOccupancy": 0,
+              "maxAdult": 0,
+              "maxChild": 0,
+              "hotelID": "string",
+              "activeDate": "2019-06-14T07:33:15.249Z",
+              "createdAt": "2019-06-14T07:33:15.249Z",
+              "updatedAt": "2019-06-14T07:33:15.249Z",
+              "squareUnit": 0,
+              "squareUnitType": "string",
+              "thumbnails": [
+                {
+                  "id": "string",
+                  "url": "string",
+                  "order": 0,
+                  "title": "string",
+                  "type": "string"
+                }
+              ],
+              "extends": [
+                {
+                  "id": "string",
+                  "standardCode": 0,
+                  "name": "string",
+                  "code": "string",
+                  "description": "string",
+                  "type": "string",
+                  "icon": "string"
+                }
+              ]
+            }
+          ],
+          "policies": [
+            {
+              "id": "string",
+              "name": "string",
+              "description": "string",
+              "type": "string",
+              "order": 0,
+              "category": "string",
+              "poster": {},
+              "thumbnail": {},
+              "hotelId": "string",
+              "organizationId": "string",
+              "status": 0,
+              "createdAt": "2019-06-14T07:33:15.249Z",
+              "updatedAt": "2019-06-14T07:33:15.249Z",
+              "createdBy": "string",
+              "updatedBy": "string"
+            }
+          ],
+          "metadata": {
+            "hotelId": "string",
+            "amendmentEmailTemplateId": "string",
+            "cancellationEmailTemplateId": "string",
+            "confirmationEmailTemplateId": "string",
+            "tripAdvisor": "string",
+            "termAndCondition": "string",
+            "checkInDescription": "string",
+            "checkOutDescription": "string",
+            "paymentMethod": [
+              "string"
+            ],
+            "paymentCardType": [
+              "string"
+            ]
+          },
+          "childPolicy": "string",
+          "extraBedPolicy": "string",
+          "parkingShuttle": "string",
+          "petPolicy": "string",
+          "smokingPolicy": "string",
+          "paymentPolicy": "string"
+        }
+      }
+    ]
+  },
+  "total": 0,
+  "requestId": "string",
+  "routingAPIs": [
+    "string"
+  ],
+  "apiErrors": [
+    {
+      "errorCode": "string",
+      "errorMessage": "string"
+    }
+  ],
+  "message": "string"
+}
