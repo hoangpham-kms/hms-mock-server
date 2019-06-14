@@ -15,6 +15,6 @@ API.forEach( api =>
 )
 
 app.get('/', (req, res) => {
-  API.forEach( api => res.write(`${req.protocol}://${req.get('host')}${api.url}\n\n`))
+  API.forEach( api => res.write(`METHOD=${api.method}\t${req.protocol}://${req.get('host')}${api.url}\n\n`))
   res.end()
 })
